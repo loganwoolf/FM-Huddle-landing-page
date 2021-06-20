@@ -11,3 +11,8 @@ body {
   background: url(./images/bg-mobile.svg) top no-repeat;
   background-color: var(--violet);
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+}
