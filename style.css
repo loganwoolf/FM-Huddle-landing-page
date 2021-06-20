@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%)
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: url(./images/bg-mobile.svg) top no-repeat;
+  background-color: var(--violet);
+}
