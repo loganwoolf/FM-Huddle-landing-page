@@ -8,34 +8,51 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: url(./images/bg-mobile.svg) top no-repeat;
-  background-color: var(--violet);
+  background: var(--violet) url(./images/bg-mobile.svg) center top/100% auto no-repeat;
   color: white;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
 
+#logo {
+  max-width: 30vw;
+}
+
+#mockup {
+  max-width: 82vw;
+}
+header {
+  padding: 20px 0;
+  display: grid;
+  justify-content: center;
+  grid-auto-rows: auto auto;
+  row-gap: 15vw;
+}
 section > h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  margin: 2vw 0 0.6em;
+}
+section > p {
+  margin: 0 0 1.5em;
+
 }
 section > a {
+  font-size: 70%;
   background-color: white;
-  padding: 1em 4em;
+  padding: 1em 7em;
   border-radius: 2em;
   color: var(--violet);
   text-decoration-line: none;
+  box-shadow: 3px 3px 10px hsla(0, 000%, 10%, 60%);
 }
-section > p {
-max-width: 60ch;
-}
-
-section > img {
-  max-width: 96vw;
-  max-height: 55vh;
-}
-
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 8vw;
 }
