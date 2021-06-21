@@ -35,10 +35,11 @@ section > h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin: 2vw 0 0.6em;
+  max-width: 23ch;
 }
 section > p {
   margin: 0 0 1.5em;
-
+  max-width: 50ch;
 }
 section > a {
   font-size: 70%;
@@ -48,6 +49,7 @@ section > a {
   color: var(--violet);
   text-decoration-line: none;
   box-shadow: 3px 3px 10px hsla(0, 000%, 10%, 60%);
+  margin: 0 0 8em;
 }
 section {
   display: flex;
@@ -55,4 +57,14 @@ section {
   align-items: center;
   text-align: center;
   padding: 8vw;
+}
+.social {
+  width: 100%
+}
+ion-icon {
+  border: 0.25px solid white;
+  transform: scale(1.5);
+  padding: 0.25em;
+  margin: 0 3vw;
+  border-radius: 3em;
 }
