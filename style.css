@@ -68,6 +68,24 @@ ion-icon {
   margin: 0 3vw;
   border-radius: 3em;
 }
+ion-icon:hover {
+  color: var(--soft-magenta);
+  border-color: var(--soft-magenta);
+}
+
+a:hover {
+  background-color: var(--soft-magenta);
+  color: white;
+}
+
+.attribution {
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: lightgrey; 
+  font-family: monospace;
+}
 
 @media only screen and (min-width: 780px) {
   body {
@@ -112,22 +130,4 @@ ion-icon {
   footer {
     margin: 10em 0 0 0;
   }
-  .attribution {
-    font-size: 11px; 
-    text-align: center; 
-  }
-  .attribution a { 
-    color: lightgrey; 
-    font-family: monospace;
-  }
-
-
-
-
-
-
-
-
-
-
 }
