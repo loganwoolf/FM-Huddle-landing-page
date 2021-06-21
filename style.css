@@ -1,18 +1,41 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 :root {
   --violet: hsl(257, 40%, 49%);
-  --soft-magenta: hsl(300, 69%, 71%)
+  --soft-magenta: hsl(300, 69%, 71%);
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: url(./images/bg-mobile.svg) top no-repeat;
   background-color: var(--violet);
+  color: white;
+}
+
+section > h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+section > a {
+  background-color: white;
+  padding: 1em 4em;
+  border-radius: 2em;
+  color: var(--violet);
+  text-decoration-line: none;
+}
+section > p {
+max-width: 60ch;
+}
+
+section > img {
+  max-width: 96vw;
+  max-height: 55vh;
 }
 
 section {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
